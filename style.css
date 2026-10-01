@@ -1,9 +1,9 @@
   body{
-   background-color: black;
+   background-color: rgb(2, 2, 55);
   }
  header{
     background-color:blueviolet;
-    color: rgb(6, 6, 6);
+    color: rgb(244, 243, 248);
     text-align: center;
     font-family: georgia;
     padding: 10px;
@@ -17,9 +17,12 @@
     padding: 20px;   
     position: sticky;
     }
-
+     
+    h2{
+      color:white;
+    }
     h3{
-      background-color: rgb(4, 3, 5);
+      background-color: rgb(2, 2, 55);
       color: white;
       padding: 10px;
       text-align: center;
@@ -38,4 +41,51 @@
     p{
       color: white;
     }
+
+    .banner img{
+      width: 40%;
+      display: block;
+      margin: 0 auto;
+      border-radius: 15px;
+    }
+
+    .Jogos{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+ }
+
+   .card{
+    background-color:blueviolet;
+      text-align:center;
+      width: 300px;
+      margin:10px;
+      border-radius: 20px;
+      font-size:20px;
+    }
     
+    .card img{
+      width: 70%;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+    .card:hover{
+    color: rgb(53, 99, 176);
+    transform: scale(1.05);
+ }
+
+ ul{
+  color:white;
+ }
+
+ label{
+  color:white
+}
+
+footer{
+  padding: 20px;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  margin-top: 250px;
+}
